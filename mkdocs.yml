@@ -1,0 +1,43 @@
+site_name: Squad Mortar Guide
+site_url: https://legomyeggo1969.github.io
+site_description: Squad Mortar Guide and Reference Material
+theme: 
+  name: mkdocs
+  highlight_js: true
+  color_mode: auto
+  user_color_mode_toggle: true
+markdown_extensions:
+  - sane_lists
+  - extra
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - 'Server Rules':
+    - 'Server Rules': server/server_rules.md
+    - 'Rule Refresher': server/summary.md
+  - 'Admin Policies': 
+    - 'All Admins': policies/all_admins.md
+    - 'Admin Lite': policies/admin_lite.md
+    - 'Headquarters': policies/headquarters.md
+    - 'Command' : policies/command.md
+  - Guides:
+    - 'Rules Enforcement': guides/rules_enforcement.md
+    - 'Punishment Matrix': guides/punishment_matrix.md
+    - 'Jail/Courthouse': guides/jail_courthouse.md
+    - 'Squad Layer Manager': guides/squad_layer_manager.md
+    - 'Map Voting': guides/map_voting.md
+    - 'Seeding': guides/seeding.md
+    - 'Creating Rotations': guides/rotations.md
+    - 'Factions': guides/factions.md
+    - 'Vehicles': guides/vehicles.md
+  - Reference:
+    - 'SquadJS Commands': reference/command_reference.md
+    - 'Discord': reference/discord.md
+    - 'BattleMetrics': reference/battlemetrics.md
+    - 'Server Management': reference/servermgmt.md
+    - 'Onboarding Admin-Lite': reference/onboarding_checklist.md
+    - 'Whitelist': reference/whitelist.md
